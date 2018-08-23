@@ -1,0 +1,8 @@
+prefix=/home/neilrs/ws/devel
+
+Name: dynamixel_workbench_controllers
+Description: Description of dynamixel_workbench_controllers
+Version: 0.3.1
+Cflags: -I/home/neilrs/ws/src/dynamixel_workbench_controller/include
+Libs: -L/home/neilrs/ws/devel/lib 
+Requires: roscpp sensor_msgs geometry_msgs dynamixel_workbench_msgs dynamixel_workbench_toolbox
